@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+
+    <!-- Desktop menu -->
     <nav id="desktop-nav">
         <div class="logo">Vitou</div>
         <div>
@@ -16,9 +18,20 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li>
+                  <img
+                    id="modeToggle" 
+                    class="icon color-icon"
+                    src="./asset/theme_light.png" 
+                    src-light="./asset/theme_light.png"
+                    src-dark="./asset/theme_dark.png"
+                    alt="Theme color icon">
+                </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Hamburger menu section -->
     <nav id="hamburger-nav">
         <div class="logo">Vitou</div>
         <div class="hamburger-menu">
@@ -32,9 +45,20 @@
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li>
+                  <img
+                    id="modeToggle2" 
+                    class="icon color-icon"
+                    src="./asset/theme_light.png" 
+                    src-light="./asset/theme_light.png"
+                    src-dark="./asset/theme_dark.png"
+                    alt="Theme color icon">
+                </li>
             </div>
         </div>
     </nav>
+
+    <!-- Profile section -->
     <section id="profile">
         <div class="section_pic-container">
             <img src="./asset/MyPic.png" alt="Vitou">
@@ -53,20 +77,26 @@
             </div>
             <div id="social-container">
                 <img
-                    src="./asset/linkedin.png"
-                    alt="linkin"
-                    class="icon"
+                    src="./asset/linkedin_light.png"
+                    src-light="./asset/linkedin_light.png"
+                    src-dark="./asset/linkedin_dark.png"
+                    alt="linkedin"
+                    class="icon linkedin-icon"
                     onclick="location.href='https://linkedin.com/'"
                 />
                 <img
-                    src="./asset/github.png"
+                    src="./asset/github_light.png"
+                    src-light="./asset/github_light.png"
+                    src-dark="./asset/github_dark.png"
                     alt="github"
-                    class="icon"
+                    class="icon github-icon"
                     onclick="location.href='https://github.com/Vit0u'"
                 />
             </div>
         </div>
     </section>
+
+    <!-- About section -->
     <section id="about">
         <p class="section_text-p1">Get to know more</p>
         <h1 class="title">About me</h1>
@@ -77,7 +107,11 @@
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./asset/skills.png" alt="skills-icon" class="icon">
+                        <img
+                          src="./asset/experience_light.png"
+                          src-light="./asset/experience_light.png"
+                          src-dark="./asset/experience_dark.png"
+                          alt="skills-icon" class="icon">
                         <h3>Skills</h3>
                         <p>Web application: HTML, CSS, JavaScript and PHP.<br>
                             Programming: C++, C# and Java. <br>
@@ -85,7 +119,11 @@
                         </p>
                     </div>
                     <div class="details-container">
-                        <img src="./asset/education.png" alt="skills-icon" class="icon">
+                        <img
+                          src="./asset/education_light.png" 
+                          src-light="./asset/education_light.png"
+                          src-dark="./asset/education_dark.png"
+                          alt="education-icon" class="icon">
                         <h3>Educations</h3>
                         <p>Bachelor degree in Computer Science <br> at RUPP. <br>
                             Graduated high school <br> at Samdach ouv high school.
@@ -99,9 +137,15 @@
                 </div>
             </div>
         </div>
-        <img src="./asset/arrow.png" alt="arrow icon" class="icon arrow"
+        <img
+          src="./asset/arrow_light.png"
+          src-light="./asset/arrow_light.png"
+          src-dark="./asset/arrow_dark.png"
+          alt="arrow icon" class="icon arrow"
             onclick="location.href='./#skills'">
     </section>
+
+    <!-- Skills section -->
     <section id="skills">
       <p class="section_text-p1">Explore My</p>
       <h1 class="title">Skills</h1>
@@ -112,7 +156,9 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -123,7 +169,9 @@
               </article>
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -134,7 +182,9 @@
               </article>
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -151,7 +201,9 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -162,7 +214,9 @@
               </article>
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -173,7 +227,9 @@
               </article>
               <article>
                 <img
-                  src="./asset/checkmark.png"
+                  src="./asset/checkmark_light.png"
+                  src-light="./asset/checkmark_light.png"
+                  src-dark="./asset/checkmark_dark.png"
                   alt="skill icon"
                   class="icon"
                 />
@@ -188,7 +244,9 @@
         </div>
       </div>
       <img
-        src="./asset/arrow.png"
+        src="./asset/arrow_light.png"
+        src-light="./asset/arrow_light.png"
+        src-dark="./asset/arrow_dark.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
@@ -248,22 +306,38 @@
       </div>
     </div>
       <img
-        src="./asset/arrow.png"
+        src="./asset/arrow_light.png"
+        src-light="./asset/arrow_light.png"
+        src-dark="./asset/arrow_dark.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
+
+    <!-- Contact section -->
     <section id="contact">
       <p class="section_text-p1">Get in touch</p>
       <h1 class="title">Contact me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./asset/email.png" alt="email icon" class="icon contact-icon email-icon">
+          <img
+            src="./asset/email_light.png"
+            src-light="./asset/email_light.png"
+            src-dark="./asset/email_dark.png"
+            alt="email icon"
+            class="icon contact-icon email-icon">
           <p><a href="leangvitou0@gmail.com">Email</a></p>
         </div>
         <div class="contact-info-container">
-          <img src="./asset/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+          <img
+              src="./asset/linkedin_light.png"
+              src-light="./asset/linkedin_light.png"
+              src-dark="./asset/linkedin_dark.png"
+              alt="linkedin"
+              class="icon linkedin-icon"
+              onclick="location.href='https://linkedin.com/'"
+          />
           <p><a href="http://www.linkedin.com">LinkedIn</a></p>
         </div>
       </div>
